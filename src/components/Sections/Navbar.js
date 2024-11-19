@@ -45,12 +45,12 @@ const Navbar = () => {
                 aria-expanded="false"
               >
                 <img
-                  src={url}
+                  src={url||"https://flagsapi.com/US/flat/32.png"}
                   alt=""
                   className="img-fluid"
                   style={{ maxWidth: "30px", height: "auto" }}
                 />
-                <p className="ml-2 mb-0">{stored}</p>
+                <p className="ml-2 mb-0">{stored||"English"}</p>
               </a>
               <div
                 className="dropdown-menu"
